@@ -1,1 +1,84 @@
 /* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+body {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 1200px;
+  font-family: sans-serif;
+  color: #343a40;
+  /* display: flex; */
+  text-align: start;    
+}
+header{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    align-self: center;
+    text-align: center;
+    margin-bottom:50px ;
+}
+.pricing{
+    color: #5271EF;
+}
+.head{
+    font-weight: bold;
+    font-size: 48px;
+    /* display: inline-block; */
+    width: 100%;
+}
+.head-describe{
+    text-align: center;
+}
+.subscription-tags{
+    display: flex;
+    justify-content: space-around;
+}
+.head-tag{
+    font-size: medium;
+    font-weight: bold;   
+}
+.price-tag{
+    color: #B4B2B2;
+    display: flex;
+    align-items: baseline;
+    justify-items: baseline;
+}
+.price-container{
+    width: 330px;
+    box-shadow: 0 1px 3px rgb(0, 0, 0, 0.1);
+    /* border  : 1px solid black; */
+}
+.price{
+    color: #000;
+    font-weight: bold;
+    font-size: 32px;
+}
+.buy-button{
+    background-color: #4848E0;
+    color: #FFF;
+    justify-self:start;
+    text-align: center;
+    margin-right: 25px;
+    padding: 5px 0px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+ul{
+    list-style-type: none;
+}
+ul li svg{
+    margin-right: 12px;
+    height:16px;
+    width: 16px;
+    fill: #4848E0;
+}
+li{
+    font-size: 16px;
+    color: #B4B2B2;
+}
