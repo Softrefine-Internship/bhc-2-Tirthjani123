@@ -1,1 +1,103 @@
 /* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+body {
+  font-family: sans-serif;
+  color: #343a40;
+}
+nav {
+  margin: 10px 10px;
+  display: flex;
+  font-weight: bold;
+  width: auto;
+  justify-content: space-between;
+  align-self: center;
+  justify-self: center;
+}
+.nav-des {
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  gap: 64px;
+}
+.logo {
+  margin-top: 16px;
+  margin-left: 24px;
+  height: 32px;
+  scale: 1;
+}
+.login {
+  gap: 2px;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+}
+.login svg {
+  align-self: center;
+  justify-self: center;
+  height: 16px;
+}
+section {
+  /* background-color: antiquewhite; */
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.small-round-button {
+  font-size: 12px;
+  margin-bottom: 24px;
+  border: 1px solid black;
+  padding: 5px 10px;
+  display: flex;
+  gap: 5px;
+  border-radius: 15px;
+}
+.small-round-button a {
+  font-weight: bold;
+  text-decoration: none;
+}
+.small-round-button svg {
+  justify-self: center;
+  align-self: center;
+  height: 16px;
+  width: 16px;
+  stroke: #551a8b;
+}
+.tittle {
+  text-align: center;
+  line-height: 1;
+  width: 400px;
+  font-size: 42px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+.desc {
+  font-size: 16px;
+  text-align: center;
+  width: 35%;
+  margin-bottom: 20px;
+}
+.action-section {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+.startButton {
+  align-self: center;
+  justify-content: center;
+  background-color: #4848e0;
+  color: white;
+  padding: 8px;
+  border-radius: 6px;
+}
