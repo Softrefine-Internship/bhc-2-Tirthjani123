@@ -1,1 +1,63 @@
 /* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+body {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 1200px;
+  font-family: sans-serif;
+  color: #343a40;
+  display: flex;
+  text-align: start;
+}
+img {
+  width: 50vw;
+  scale: 1;
+}
+.section {
+  display: flex;
+  width: 50vw;
+  height: 599px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #101826;
+}
+.content {
+  justify-content: start;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 450px;
+  /* background-color: antiquewhite; */
+}
+.sub-head {
+  justify-self: center;
+  color: #7c8df4;
+  font-size: small;
+  text-align: start;
+}
+
+.main-head {
+  margin-bottom: 20px;
+  font-size: 44px;
+  font-weight: bold;
+  color: #fff;
+}
+.description {
+  color: #acb0b8;
+  font-size: smaller;
+  margin-bottom: 20px;
+}
+.button {
+  background-color: #28303c;
+  color: #acb0b8;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+
+}
