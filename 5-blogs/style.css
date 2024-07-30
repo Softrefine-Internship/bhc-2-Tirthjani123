@@ -1,1 +1,92 @@
 /* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: sans-serif;
+  color: #343a40;
+}
+.blog-content {
+  margin: 0 auto;
+  height: 100vh;
+  width: 1200px;
+}
+.page-tittle {
+  font-size: xx-large;
+  font-weight: bold;
+  color: #343a40;
+}
+.blog-category {
+  font-weight: bold;
+  color: #adb5bd;
+}
+.page-sub-tittle {
+  color: #343a40;
+}
+.blog {
+  margin-bottom: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  /* height: 100%; */
+}
+.blog img {
+  height: 250px;
+  width: 250px;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+.type {
+  margin-bottom: 10px;
+  color: #adb5bd;
+  display: flex;
+  font-size: small;
+  gap: 30px;
+}
+.blog {
+  width: 1000px;
+}
+.blog-details {
+  display: flex;
+  flex-direction: column;
+}
+.blog-tittle {
+  margin-bottom: 10px;
+  font-size: larger;
+  font-weight: bold;
+}
+.blog-description {
+  margin-bottom: 30px;
+  font-size: small;
+  color: #868e96;
+}
+.author-details{
+  display: flex;
+  gap: 20px;
+  font-size: small;
+}
+hr{
+  border-top: #adb5bd;
+  margin-bottom: 20px;
+}
+.author-details img {
+  height: 50px;
+  width: 50px;
+  scale: 1;
+}
+.profile-details{
+  justify-content: center;
+  align-items: center;
+}
+.author-name{
+  font-weight: bold;
+  font-size: small;
+}
