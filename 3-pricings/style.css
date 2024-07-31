@@ -50,6 +50,7 @@ header{
     justify-items: baseline;
 }
 .price-container{
+    padding: 15px;
     width: 330px;
     box-shadow: 0 1px 3px rgb(0, 0, 0, 0.1);
     /* border  : 1px solid black; */
@@ -60,7 +61,7 @@ header{
     font-size: 32px;
 }
 .buy-button{
-    background-color: #4848E0;
+    background-color: #5555d1;
     color: #FFF;
     justify-self:start;
     text-align: center;
@@ -68,6 +69,10 @@ header{
     padding: 5px 0px;
     border-radius: 5px;
     margin-bottom: 40px;
+}
+.buy-button:hover{
+    background-color: #0808ef;
+    cursor: pointer;
 }
 ul{
     list-style-type: none;

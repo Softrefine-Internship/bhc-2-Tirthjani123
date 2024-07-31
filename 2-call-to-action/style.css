@@ -34,7 +34,6 @@ img {
   flex-direction: column;
   height: 150px;
   width: 450px;
-  /* background-color: antiquewhite; */
 }
 .sub-head {
   justify-self: center;
@@ -44,21 +43,24 @@ img {
 }
 
 .main-head {
-  margin-bottom: 20px;
-  font-size: 44px;
   font-weight: bold;
   color: #fff;
 }
 .description {
+  margin-top: 20px;
   color: #acb0b8;
   font-size: smaller;
   margin-bottom: 20px;
 }
 .button {
+  width: max-content;
   background-color: #28303c;
-  color: #acb0b8;
+  color: #fff;
   text-align: center;
-  padding: 5px 10px;
+  padding: 10px 15px;
   border-radius: 5px;
-
+}
+.button:hover{
+  background-color: #343a40;
+  cursor: pointer;
 }

@@ -6,11 +6,11 @@
   line-height: 1.5;
 }
 body {
+  margin: 1%;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: 100vh;
   font-family: sans-serif;
   color: #343a40;
 }
@@ -68,12 +68,12 @@ body {
   font-size: small;
   color: #868e96;
 }
-.author-details{
+.author-details {
   display: flex;
   gap: 20px;
   font-size: small;
 }
-hr{
+hr {
   border-top: #adb5bd;
   margin-bottom: 20px;
 }
@@ -82,11 +82,11 @@ hr{
   width: 50px;
   scale: 1;
 }
-.profile-details{
+.profile-details {
   justify-content: center;
   align-items: center;
 }
-.author-name{
+.author-name {
   font-weight: bold;
   font-size: small;
 }

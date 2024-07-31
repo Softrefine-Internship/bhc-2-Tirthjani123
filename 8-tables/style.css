@@ -17,9 +17,9 @@ body {
   display: flex;
   text-align: start;
 }
-heading{
-    display: flex;
-    margin-bottom: 20px;
+heading {
+  display: flex;
+  margin-bottom: 20px;
 }
 .head {
   font-size: larger;
@@ -29,37 +29,43 @@ heading{
   font-size: medium;
   font-weight: 500;
 }
-.add-user-button{
-    /* position: absolute; */
-    margin-right: 10px;
-    margin-left: auto;
-    text-align: center;
-    height: 100%;
-    background-color: #4848E0;
-    padding: 5px 10px;
-    align-self: center;
-    justify-self: center;
-    color:#fff;
-    border-radius: 5px;
+.add-user-button {
+  /* position: absolute; */
+  margin-right: 10px;
+  margin-left: auto;
+  text-align: center;
+  height: 100%;
+  background-color: #4848e0;
+  padding: 5px 10px;
+  align-self: center;
+  justify-self: center;
+  color: #fff;
+  border-radius: 5px;
 }
-table{
-    border-collapse:collapse;
+.add-user-button:hover {
+  cursor: pointer;
+  background-color: #5e5ede;
 }
-th,tr,td{
-    color: #93989c;
-    font-size: medium;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid #93989c;
+table {
+  border-collapse: collapse;
 }
-th{
-    text-align: start;
-    color: #343a40;
+th,
+tr,
+td {
+  color: #93989c;
+  font-size: medium;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #93989c;
 }
-.name{
-    font-weight: bold;
-    color: #343a40;
+th {
+  text-align: start;
+  color: #343a40;
 }
-a{
-    text-decoration: none;
+.name {
+  font-weight: bold;
+  color: #343a40;
+}
+a {
+  text-decoration: none;
 }

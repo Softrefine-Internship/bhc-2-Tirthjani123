@@ -7,12 +7,14 @@
 }
 body {
   margin: 0 auto;
+  margin: 1% auto;
   width: 1200px;
   font-family: sans-serif;
   color: #343a40;
+  background-image: repeating-linear-gradient(#F3E2F4, #E9E0F9 );
+  /* background-image: linear-gradient(180px,#F3E2F4,#E9E0F9); */
 }
 nav {
-  margin: 10px 10px;
   display: flex;
   font-weight: bold;
   width: auto;
@@ -21,18 +23,24 @@ nav {
   justify-self: center;
 }
 .nav-des {
+  justify-self: center;
+  align-self: center;
   align-self: center;
   justify-self: center;
   display: flex;
   gap: 64px;
 }
+.nav-des p:hover{
+  cursor: pointer;
+}
 .logo {
-  margin-top: 16px;
-  margin-left: 24px;
+  justify-self: center;
+  align-self: center;
   height: 32px;
   scale: 1;
 }
 .login {
+  cursor: pointer;
   gap: 2px;
   display: flex;
   align-self: center;
@@ -55,7 +63,7 @@ section {
 .small-round-button {
   font-size: 12px;
   margin-bottom: 24px;
-  border: 1px solid black;
+  border: 1px solid #e2e4e9;
   padding: 5px 10px;
   display: flex;
   gap: 5px;
@@ -85,8 +93,11 @@ section {
 .desc {
   font-size: 16px;
   text-align: center;
-  width: 35%;
+  width: 45%;
   margin-bottom: 20px;
+}
+.action-section div{
+  cursor: pointer;
 }
 .action-section {
   display: flex;
@@ -95,11 +106,17 @@ section {
   align-items: center;
   font-weight: 600;
 }
+.startButton:hover{
+  cursor: pointer;
+  background-color: #1c1ce1;
+  color: #FFF;
+  /* padding: 12px 24px; */
+}
 .startButton {
   align-self: center;
   justify-content: center;
   background-color: #4848e0;
-  color: white;
-  padding: 8px;
+  color: #FFF;
+  padding: 8px 18px;
   border-radius: 6px;
 }
