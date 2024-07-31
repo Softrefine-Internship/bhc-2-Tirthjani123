@@ -1,1 +1,65 @@
 /* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 1200px;
+  font-family: sans-serif;
+  color: #343a40;
+  display: flex;
+  text-align: start;
+}
+heading{
+    display: flex;
+    margin-bottom: 20px;
+}
+.head {
+  font-size: larger;
+  font-weight: bold;
+}
+.desc {
+  font-size: medium;
+  font-weight: 500;
+}
+.add-user-button{
+    /* position: absolute; */
+    margin-right: 10px;
+    margin-left: auto;
+    text-align: center;
+    height: 100%;
+    background-color: #4848E0;
+    padding: 5px 10px;
+    align-self: center;
+    justify-self: center;
+    color:#fff;
+    border-radius: 5px;
+}
+table{
+    border-collapse:collapse;
+}
+th,tr,td{
+    color: #93989c;
+    font-size: medium;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #93989c;
+}
+th{
+    text-align: start;
+    color: #343a40;
+}
+.name{
+    font-weight: bold;
+    color: #343a40;
+}
+a{
+    text-decoration: none;
+}
