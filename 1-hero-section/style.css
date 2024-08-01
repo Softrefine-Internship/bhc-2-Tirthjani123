@@ -31,6 +31,7 @@ nav {
   gap: 64px;
 }
 .nav-des p:hover{
+  color: #000;
   cursor: pointer;
 }
 .logo {
@@ -46,13 +47,15 @@ nav {
   align-self: center;
   justify-self: center;
 }
+.login:hover{
+  color: #000;
+}
 .login svg {
   align-self: center;
   justify-self: center;
   height: 16px;
 }
 section {
-  /* background-color: antiquewhite; */
   width: 100%;
   height: 90vh;
   display: flex;
@@ -63,7 +66,7 @@ section {
 .small-round-button {
   font-size: 12px;
   margin-bottom: 24px;
-  border: 1px solid #e2e4e9;
+  border: 1px solid #a2a4a9;
   padding: 5px 10px;
   display: flex;
   gap: 5px;
@@ -119,4 +122,7 @@ section {
   color: #FFF;
   padding: 8px 18px;
   border-radius: 6px;
+}
+.action-section :last-child:hover{
+  color: #000;
 }
