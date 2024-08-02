@@ -11,7 +11,7 @@ body {
   width: 1200px;
   font-family: sans-serif;
   color: #343a40;
-  background-image: repeating-linear-gradient(#F3E2F4, #E9E0F9 );
+  background-image: repeating-linear-gradient(#d7a0da, #9e8dbc );
   /* background-image: linear-gradient(180px,#F3E2F4,#E9E0F9); */
 }
 nav {
@@ -31,7 +31,7 @@ nav {
   gap: 64px;
 }
 .nav-des p:hover{
-  color: #000;
+  color: #4848e0;
   cursor: pointer;
 }
 .logo {
@@ -48,7 +48,7 @@ nav {
   justify-self: center;
 }
 .login:hover{
-  color: #000;
+  color: #1c1ce1;
 }
 .login svg {
   align-self: center;
@@ -66,7 +66,7 @@ section {
 .small-round-button {
   font-size: 12px;
   margin-bottom: 24px;
-  border: 1px solid #a2a4a9;
+  border: 1px solid #343a40;
   padding: 5px 10px;
   display: flex;
   gap: 5px;
@@ -75,6 +75,9 @@ section {
 .small-round-button a {
   font-weight: bold;
   text-decoration: none;
+}
+.small-round-button:hover{
+  border: 1px solid #343a40;
 }
 .small-round-button svg {
   justify-self: center;
@@ -124,5 +127,5 @@ section {
   border-radius: 6px;
 }
 .action-section :last-child:hover{
-  color: #000;
+  color: #1c1ce1;
 }

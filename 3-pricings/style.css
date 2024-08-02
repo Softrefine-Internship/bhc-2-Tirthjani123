@@ -11,7 +11,6 @@ body {
   width: 1200px;
   font-family: sans-serif;
   color: #343a40;
-  /* display: flex; */
   text-align: start;    
 }
 header{
@@ -29,7 +28,6 @@ header{
 .head{
     font-weight: bold;
     font-size: 48px;
-    /* display: inline-block; */
     width: 100%;
 }
 .head-describe{
@@ -37,7 +35,9 @@ header{
 }
 .subscription-tags{
     display: flex;
-    justify-content: space-around;
+    align-self: center;
+    justify-content: center;
+    /* justify-content: space-between; */
 }
 .head-tag{
     font-size: medium;
@@ -50,15 +50,19 @@ header{
     justify-items: baseline;
 }
 .price-container{
-    padding: 15px;
+    margin: 10px 20px;
     width: 330px;
-    box-shadow: 0 1px 3px rgb(0, 0, 0, 0.1);
-    /* border  : 1px solid black; */
 }
 .price{
     color: #000;
     font-weight: bold;
     font-size: 32px;
+}
+hr{
+    padding: 15% 0;
+    border-left: 1px solid #ede6e6;
+    /* color: #dadddf;
+    background-color: #dcd6d6; */
 }
 .buy-button{
     background-color: #5555d1;
@@ -71,7 +75,7 @@ header{
     margin-bottom: 40px;
 }
 .buy-button:hover{
-    background-color: #0808ef;
+    background-color: #5271EF;
     cursor: pointer;
 }
 ul{

@@ -1,5 +1,6 @@
 /* write your css here */
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -37,9 +38,10 @@ body {
 }
 input[type="text"],
 input[type="text"]:enabled {
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.17); 
   margin-top: 5px;
   margin-bottom: 10px;
-  border: 2px solid #c5c9cf;
+  border: 1px solid rgba(0, 0, 0, 0.17);
   padding: 5px;
   height: auto;
   width: 100%;
@@ -51,8 +53,9 @@ input[type="text"]::placeholder {
   font-size: medium;
 }
 textarea {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.17); 
   margin-top: 10px;
-  border: 2px solid #c5c9cf;
+  border: 1px solid #c5c9cf;
   height: auto;
   border-radius: 5px;
   padding: 5px;
@@ -70,11 +73,11 @@ textarea {
   text-align: center;
   width: 100%;
   color: #fff;
-  background-color: #5555d8;
+  background-color: #7474d2;
 }
-.button:hover{
+.button:hover {
   cursor: pointer;
-  background-color: #4848e0;
+  background-color: #3838cc;
 }
 .toggle-section p {
   margin-left: 20px;
@@ -87,4 +90,43 @@ a {
   font-weight: 400;
   text-decoration: none;
   margin-left: 5px;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  /* margin: 0 10px; */
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+.switch input {
+  display: none;
+}
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 45%;
+  left: 5%;
+  bottom:0px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+input:checked + .slider {
+  padding: 10px;
+  background-color: #5555d8; 
+}
+input:checked + .slider::before{
+  transform: translateX(15px)
 }
