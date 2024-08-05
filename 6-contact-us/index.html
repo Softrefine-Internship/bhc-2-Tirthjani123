@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
   </head>
   <body>
@@ -44,10 +48,10 @@
         <div class="Last-name-field">
           Phone number
           <div>
-            <input type="text" id="fname" name="fname" placeholder="US" />
+            <input id="phone" type="tel" name="fname" style=" width: 622px; " />
           </div>
         </div>
-        <div class="Last-name-field">
+        <div class="Last-name-field" style="margin-top: 10px;">
           Message
           <div>
             <textarea name="" id=""></textarea>
@@ -55,7 +59,7 @@
         </div>
         <div class="toggle-section">
           <label class="switch">
-            <input type="checkbox"/>
+            <input type="checkbox" />
             <span class="slider"></span>
           </label>
           <p>By selecting this, you will agree to our</p>
@@ -65,4 +69,11 @@
       </div>
     </div>
   </body>
+  <script>
+    const phoneInputField = document.querySelector("#phone");
+    const phoneInput = window.intlTelInput(phoneInputField, {
+      utilsScript:
+        "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+    });
+  </script>
 </html>

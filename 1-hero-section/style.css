@@ -73,6 +73,7 @@ section {
   border-radius: 15px;
 }
 .small-round-button a {
+  color: #5555E2;
   font-weight: bold;
   text-decoration: none;
 }

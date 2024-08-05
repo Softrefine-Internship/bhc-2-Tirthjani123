@@ -137,9 +137,9 @@ hr {
   cursor: pointer;
   background-color: #6f747d;
 }
-.twitter-button:hover {
+.twitter-button:hover, .twitter-button svg:hover {
   cursor: pointer;
-  background-color: #56a1da;
+
 }
 .github-button svg {
   fill: white;
